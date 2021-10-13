@@ -37,7 +37,8 @@ export default ({ elements }) => ({
         margin: 0
       },
       children: [
-        elements.form()
+        elements.form(),
+        elements.list(),
       ]
     }
   ]
