@@ -10,6 +10,7 @@ const createFields = (fields) => Object.entries(fields).map(createField);
 
 export default ({ action, title, fields }) => ({
   tag: 'div',
+  classNames: ['form-container'],
   styles: {
     padding: '20px',
     backgroundColor: 'grey',
